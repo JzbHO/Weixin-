@@ -1,0 +1,74 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+swiper{
+  width: 100% ;
+  height: 340rpx;
+}
+
+/* 空格表示层级关系 */
+slide image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.first-level-form{
+  overflow: hidden;
+  flex-direction: row;
+  display: flex;
+}
+
+.first-level-title{
+  color:black;
+  font-size: 34rpx;
+  line-height: 1;
+}
+.food-logo{
+  float: left;
+  width: 190rpx;
+  height: 190rxp;
+}
+
+.wxSearch-pancel{
+  flex-direction: row;
+  display: flex;
+}
+
+.first-name{
+  font-size: 60rpx
+}
+
+
+.pro-item{
+  overflow: hidden;
+}
+.pro-logo{
+  float: left;
+  width: 190rpx;
+  height: 190rpx;
+}
+
+.pro-body{
+  margin-left: 200rpx;
+
+}
